@@ -11,11 +11,13 @@
     font-family: 'Poppins';
 }
 
-@keyframes anime {
+/* @keyframes anime {
     0%{
-        scale: -1;
+        right: 6px;
+        background-color:red;
     }
     100%{
-        scale: 1.1;
+        right: -6px;
+        background-color: green;
     }
-}
+} */

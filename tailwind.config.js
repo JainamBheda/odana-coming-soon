@@ -8,7 +8,21 @@ export default {
     fontFamily: {
       'body': ['"Poppins"']
     },
-    extend: {},
+    extend: {
+      keyframes: {
+        arrow: {
+          "0%": {
+            opacity: "0",
+          },
+          "100%": {
+            opacity: "1",
+          }
+        },
+        animation: {
+          "arrow-move": "arrow 3s infinite",
+        }
+      }
+    },
   },
   plugins: [],
 }
